@@ -14,3 +14,4 @@
 ## 본격 JSP 학습하기
 
 * [Servlet mapping](/servletmappingtest)
+* [request, response](/servletrequest)
