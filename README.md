@@ -5,3 +5,12 @@
 * [실전 JSP](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-jsp_renew/dashboard)를 참고하여 개념 습득
 * 직접 실습을 통해 내 것으로 만들기 
 * commit
+
+## Orientation
+
+* [JSP 맛보기](/lec03Pjt001)
+* [Servlet 맛보기](/lec04Pjt001)
+
+## 본격 JSP 학습하기
+
+* [Servlet mapping](/servletmappingtest)
