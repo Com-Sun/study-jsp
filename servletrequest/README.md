@@ -37,3 +37,45 @@ ServletEx를 생성했는데 HttpServlet을 상속하는 것을 볼 수 있다. 
 * response: 응답에 대한 정보를 갖는 객체
 
 요청에 관한 처리를 할 때는 request객체를, 응답에 관한 처리를 할 때는 response 객체를 사용하여 기능을 구현할 수 있다.
+
+
+# Servlet Life Cycle
+
+
+### Servlet 생명주기
+
+* @PostConstruct
+* init()
+* service 
+* destroy()
+* @PreDestroy
+
+### 생명주기 관련 메서드
+
+실습을 통해 생명주기 메서드에 대해 알아보자. 다음과 같이 코드를 작성한다.
+
+	@PostConstruct
+		public void pc() {
+			System.out.println("-----@PostConstruct-----");
+		}
+	
+	@Override
+	public void init() throws ServletException {
+		System.out.println("-----init()-----");
+	}
+	
+	@Override
+	public void destroy() {
+		System.out.println("-----파괴광선-----");
+	}
+	
+	@PreDestroy
+	public void pd() {
+		System.out.println("-----파괴광선 끝-----");
+	}
+
+서버를 실행시키자.
+
+![](./img/4.PNG)
+
+배웠던 바와 같이, 가장 먼저 PostConstruct가 실행된다. 다음에 init()이 호출되고, DoGet 메서드가 실행된다. 하지만 destroy 메서드는 실행되지 않는다. 서블릿이 아직 실행중이기 때문이다.
