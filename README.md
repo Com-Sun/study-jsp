@@ -19,3 +19,4 @@
 * [form 데이터 처리](/lec08Pjt001)
 * [jsp script](/lec09Pjt001)
 * [jsp request, response](/lec10Pjt001)
+* [jsp 내장객체](/lec11Pjt001)
