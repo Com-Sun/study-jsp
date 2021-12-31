@@ -18,3 +18,4 @@
 * [Life cycle](/servletrequest)
 * [form 데이터 처리](/lec08Pjt001)
 * [jsp script](/lec09Pjt001)
+* [jsp request, response](/lec10Pjt001)
