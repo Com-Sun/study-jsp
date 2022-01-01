@@ -28,9 +28,9 @@
 			m_mytext = request.getParameter("m_mytext");
 		%>
 		
-		m_name : <%= m_name %> </br>
-		m_pass : <%= m_pass %> </br>
-		m_gender : <%= m_gender %> </br>
+		m_name : <%= m_name %> <br>
+		m_pass : <%= m_pass %> <br>
+		m_gender : <%= m_gender %> <br>
 		m_hobby :
 		<%
 			
@@ -39,7 +39,7 @@
 			<%= m_hobby[i] %>
 		<%
 			}
-		%> </br>
+		%> <br>
 		m_residence : <%= m_residence %>
 		m_myname : <%= m_myname %> <br>
 		m_mytext : <%= m_mytext %> <br>

@@ -7,7 +7,7 @@ request, response는 jsp에서 제공하는 기본 객체들중 하나이다. �
 
 ### config 객체
 
-config: 이 객체는 처음 서블릿이 콘테이너에서 초기화 될 때, web.xml에서'만' 읽어온 초기화 정보를 갖는다. 즉, 개발자가 미리 서블릿 or JSP에 맵핑해둔 초기화 정보를 저장하고있는 내장객체이다. 코드를 통해 이해해보자.
+config: 이 객체는 처음 서블릿이 콘테이너에서 초기화 될 때, web.xml에서 읽어온 초기화 정보를 갖는다. 즉, 개발자가 미리 서블릿 or JSP에 맵핑해둔 초기화 정보를 저장하고있는 내장객체이다. 코드를 통해 이해해보자.
 
 	<servlet>
 	    <servlet-name>servletEx</servlet-name>
