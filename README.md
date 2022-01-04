@@ -23,4 +23,8 @@
 * [servlet 데이터 공유](/lec12Pjt001)
 * [Cookie](/lec13Pjt001)
 * [Session](/lec14Pjt001)
-* [한글처리](/lec15Pjt001)
+* [한글처리](/sql)
+
+## DBMS 사용
+
+* [SQL](/lec17Pjt001)
