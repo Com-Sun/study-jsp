@@ -27,4 +27,4 @@
 
 ## DBMS 사용
 
-* [SQL](/lec17Pjt001)
+* [SQL](/sql)
